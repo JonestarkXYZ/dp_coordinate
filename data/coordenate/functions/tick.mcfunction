@@ -1,3 +1,5 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:compass"}},tag=!showCoords] run tag @s add showCoords
-execute as @a[nbt={SelectedItem:{id:"minecraft:compass"}},tag=showCoords] run function coordenate:get_coords
-execute as @a[nbt=!{SelectedItem:{id:"minecraft:compass"}},tag=showCoords] run function coordenate:hide_coords
+#Check items de jugadores si son compas para mostrar coordenadas
+execute as @a run function coordenate:check_item
+
+#Sino tienen ningun item de compas, se ocultan las coordenadas
+execute as @a[tag=!showCoords,tag=hideCoords] run function coordenate:hide_coords

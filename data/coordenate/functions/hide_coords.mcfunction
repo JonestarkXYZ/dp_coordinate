@@ -1,2 +1,3 @@
-execute as @s run tag @s remove showCoords
 title @s actionbar ""
+tag @s remove hideCoords
+tag @s remove showCoords
