@@ -1,3 +1,4 @@
+schedule function coordenate:tick 1t
 #Check items de jugadores si son compas para mostrar coordenadas
 execute as @a run function coordenate:check_item
 
