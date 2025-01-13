@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": [
+            {"text": "dp_coordenate for: ", "color": "gold"},
+            {"text": "MC Java (1.19) - (1.19.3)", "color": "yellow"},
+            {"text": "\nGitHub: ", "color": "gold"},
+            {"text": "https://github.com/JonestarkXYZ/dp_coordenate", "color": "aqua"},
+            {"text": "\nLicense: ", "color": "gold"},
+            {"text": "MIT with Non-Commercial Restriction", "color": "green"}
+        ]
+    }
+}
