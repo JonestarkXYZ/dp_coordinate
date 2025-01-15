@@ -1,6 +1,6 @@
-# Coordenate
+# Coordinate
 
-Coordenate at minecraft
+Coordinates in minecraft without using F3
 
 ## Installation
 
